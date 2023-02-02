@@ -69,7 +69,7 @@ function deleteButton(){
 	btn.appendChild(document.createTextNode("Delete"));
 	listItems[i].appendChild(btn);
 	btn.onclick=removeParent;
-}D
+}
 
 // aici ai functia remove
 function removeParent(evt){
